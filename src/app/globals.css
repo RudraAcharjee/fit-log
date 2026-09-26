@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #090909; color: #f4f4f0; }
+* { box-sizing: border-box; }
+button, a { -webkit-tap-highlight-color: transparent; }
+
+@layer utilities {
+  .border-line { border-color: #272727; }
+  .text-muted { color: #929292; }
+  .bg-panel { background: #111111; }
+}
