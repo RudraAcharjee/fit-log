@@ -27,7 +27,7 @@ export default function HomePage() {
 
   return (
     <main>
-      <section className="mx-auto grid max-w-7xl gap-10 px-5 pb-16 pt-12 md:grid-cols-[1.05fr_.95fr] md:items-center md:px-8 md:pt-20">
+      <section className=" mx-auto grid max-w-7xl gap-10 px-5 pb-16 pt-12 md:grid-cols-[1.05fr_.95fr] md:items-center md:px-8 md:pt-20">
         <div>
           <div className="mb-5 flex items-center gap-2 text-xs font-bold tracking-[0.22em] text-lime"><Dumbbell size={15} /> WORKOUT LIBRARY</div>
           <h1 className="max-w-3xl text-5xl font-black uppercase leading-[.92] tracking-tight sm:text-6xl md:text-7xl">TRAIN WITH INTENT. LOG EVERY SET.</h1>
