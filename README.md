@@ -40,4 +40,4 @@ https://api.abcz.workers.dev/api/fitlog
 
 ## Deployment
 
-The project can be deployed on Vercel or another Next.js-compatible hosting service.
+The project can be deployed on Vercel or another Next.js-Compatible hosting service.
