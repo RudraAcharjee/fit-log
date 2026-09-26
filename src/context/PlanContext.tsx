@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import {Workout} from '@/lib/types';
+import { Workout } from '@/lib/types';
 
 type PlanContextType = {
   plan: Workout[];
