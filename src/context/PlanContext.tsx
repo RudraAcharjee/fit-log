@@ -31,7 +31,7 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
       if (savedLater) setSaved(JSON.parse(savedLater));
       if (savedDone) setDone(JSON.parse(savedDone));
     } catch {
-      // keep The empty state if old local data is not valid
+      // keep the empty state if old local data is not valid
     }
     setReady(true);
   }, []);
